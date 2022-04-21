@@ -1,0 +1,48 @@
+:root {
+  --dark-color: #19283f;
+  --sky-color: #33d1cc;
+  --text-btn-color: #ffc400;
+  --btn-color: #ff3150;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 10000px;
+}
+.main-btn {
+  background-color: var(--btn-color);
+  color: var(--text-btn-color);
+}
+/* start nav bar style */
+.navbar {
+  background-color: var(--dark-color);
+}
+.nav-link {
+  text-transform: capitalize;
+}
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+  color: var(--sky-color);
+}
+
+.navbar .search {
+  border-left: 1px solid var(--sky-color);
+}
+.navbar .search svg {
+  color: var(--sky-color);
+}
+.navbar .navbar-toggler {
+  color: white;
+  border-color: white;
+}
+/* end nav bar style */
+
+/* start landing */
+.landing {
+  background-color: var(--dark-color);
+  height: calc(100vh - 71.96px);
+}
+/* end landing */

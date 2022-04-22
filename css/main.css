@@ -16,7 +16,7 @@ body {
   position: relative;
 }
 .main-title::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 15%;
   bottom: -5;
@@ -171,4 +171,16 @@ body {
 
 .yourproject {
   background-color: var(--dark-color);
+}
+
+.subcribe {
+  background-color: #ffc400;
+}
+.subcribe input {
+  border-color: transparent;
+  border-bottom: 1px solid white;
+}
+
+.subcribe input::placeholder {
+  color: white;
 }
